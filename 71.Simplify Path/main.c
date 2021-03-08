@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <sring.h>
+#include <string.h>
 
 char * simplifyPath(char * path){
     int len = strlen(path);
