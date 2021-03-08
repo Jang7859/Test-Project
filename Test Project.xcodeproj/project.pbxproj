@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		9E5AC2B625F646EF0017FC42 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9E5AC2B525F646EF0017FC42 /* main.c */; };
+		9E5AC2C725F649B70017FC42 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9E5AC2C625F649B70017FC42 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		9E5AC2B125F646EF0017FC42 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9E5AC2C225F649B70017FC42 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,19 @@
 /* Begin PBXFileReference section */
 		9E5AC2B325F646EF0017FC42 /* 71.Simplify Path */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "71.Simplify Path"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5AC2B525F646EF0017FC42 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9E5AC2C425F649B70017FC42 /* 215. Kth Largest Element in an Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "215. Kth Largest Element in an Array"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5AC2C625F649B70017FC42 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9E5AC2B025F646EF0017FC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5AC2C125F649B70017FC42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				9E5AC2B425F646EF0017FC42 /* 71.Simplify Path */,
+				9E5AC2C525F649B70017FC42 /* 215. Kth Largest Element in an Array */,
 				9E3E069825F375BB0066CD8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				9E5AC2B325F646EF0017FC42 /* 71.Simplify Path */,
+				9E5AC2C425F649B70017FC42 /* 215. Kth Largest Element in an Array */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +81,14 @@
 				9E5AC2B525F646EF0017FC42 /* main.c */,
 			);
 			path = "71.Simplify Path";
+			sourceTree = "<group>";
+		};
+		9E5AC2C525F649B70017FC42 /* 215. Kth Largest Element in an Array */ = {
+			isa = PBXGroup;
+			children = (
+				9E5AC2C625F649B70017FC42 /* main.c */,
+			);
+			path = "215. Kth Largest Element in an Array";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +111,23 @@
 			productReference = 9E5AC2B325F646EF0017FC42 /* 71.Simplify Path */;
 			productType = "com.apple.product-type.tool";
 		};
+		9E5AC2C325F649B70017FC42 /* 215. Kth Largest Element in an Array */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E5AC2CA25F649B70017FC42 /* Build configuration list for PBXNativeTarget "215. Kth Largest Element in an Array" */;
+			buildPhases = (
+				9E5AC2C025F649B70017FC42 /* Sources */,
+				9E5AC2C125F649B70017FC42 /* Frameworks */,
+				9E5AC2C225F649B70017FC42 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "215. Kth Largest Element in an Array";
+			productName = "215. Kth Largest Element in an Array";
+			productReference = 9E5AC2C425F649B70017FC42 /* 215. Kth Largest Element in an Array */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -91,6 +137,9 @@
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					9E5AC2B225F646EF0017FC42 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9E5AC2C325F649B70017FC42 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -109,6 +158,7 @@
 			projectRoot = "";
 			targets = (
 				9E5AC2B225F646EF0017FC42 /* 71.Simplify Path */,
+				9E5AC2C325F649B70017FC42 /* 215. Kth Largest Element in an Array */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +169,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E5AC2B625F646EF0017FC42 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5AC2C025F649B70017FC42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5AC2C725F649B70017FC42 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +310,22 @@
 			};
 			name = Release;
 		};
+		9E5AC2C825F649B70017FC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E5AC2C925F649B70017FC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -269,6 +343,15 @@
 			buildConfigurations = (
 				9E5AC2B825F646EF0017FC42 /* Debug */,
 				9E5AC2B925F646EF0017FC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E5AC2CA25F649B70017FC42 /* Build configuration list for PBXNativeTarget "215. Kth Largest Element in an Array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5AC2C825F649B70017FC42 /* Debug */,
+				9E5AC2C925F649B70017FC42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
