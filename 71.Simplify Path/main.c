@@ -2,7 +2,7 @@
 //  main.c
 //  71.Simplify Path
 //
-//  Created by 장재연 on 2021/03/08.
+//  Created by 장재연 on 2021/03/08
 //
 
 #include <stdio.h>
